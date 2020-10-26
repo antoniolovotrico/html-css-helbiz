@@ -118,7 +118,42 @@ nav a {
   background-size: contain;
 }
 
+.title_how_it_works {
+  padding-top: 550px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
 #iphone_frame {
-  width: 60%;
-  padding-top: 100px;
+  width: 70%;
+  padding-top: 150px;
+  padding-left: 50px;
+}
+
+.how_it_works h2 {
+  font-size: 32px;
+}
+
+#smart_mobility {
+  background-image: url(../img/scooter.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+
+#get_app {
+  background-color: #364757;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 700px;
+  margin-right: 20px;
+  margin-top: 40px;
+}
+
+#find_us {
+  background-image: url(../img/city.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 700px;
+  margin-left: 20px;
+  margin-top: 40px;
 }
