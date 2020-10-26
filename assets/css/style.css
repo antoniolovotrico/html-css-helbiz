@@ -1,5 +1,5 @@
 .container {
-  width: 1170px;
+  width: 1440px;
   margin: auto;
 }
 
@@ -15,6 +15,10 @@ nav {
 h1 {
   font-size: 58px;
   font-weight: 600;
+}
+
+.row {
+  padding: 50px;
 }
 
 .logo_nav {
@@ -35,6 +39,9 @@ h1 {
 
 a {
   text-decoration: none;
+}
+
+nav a {
   color: black;
 }
 
@@ -76,4 +83,31 @@ a {
 
 .hero_text img {
   height: 70px;
+}
+
+.service .card {
+  text-align: center;
+  background-color: #fafafa;
+  padding: 50px;
+  margin: 20px;
+}
+.img_titolo {
+  width: 40%;
+  padding-top: 50px;
+}
+.img_card {
+  width: 80%;
+}
+
+.card p {
+  padding: 25px;
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.card a {
+  font-size: 20px;
+  font-weight: lighter;
+  display: block;
+  color: #3E8FD3;
 }
