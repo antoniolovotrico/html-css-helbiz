@@ -4,11 +4,7 @@
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
-}
-
-header {
-
+  font-family: 'Open Sans', sans-serif;
 }
 
 nav {
@@ -16,11 +12,21 @@ nav {
   line-height: 80px;
 }
 
+h1 {
+  font-size: 58px;
+  font-weight: 600;
+}
+
+.logo_nav {
+  font-size: 28px;
+  letter-spacing: 6px;
+}
+
 .menu_nav li , .lang_nav li {
   list-style: none;
   display: inline-block;
   text-transform: uppercase;
-  font-size: 20px;
+  padding: 0 10px;
 }
 
 .menu_nav ul , .lang_nav ul {
@@ -29,18 +35,29 @@ nav {
 
 a {
   text-decoration: none;
+  color: black;
 }
 
 .hero_img {
   background-image: url(../img/938415.jpeg);
   background-size: cover;
-  height: 900px;
+  height: 700px;
   position: relative;
+  background-repeat: no-repeat;
+}
+
+.overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .lang_nav li:not(:last-child) a {
-  border-right: 1px solid white;
-  padding: 0 5px;
+  border-right: 1px solid black;
+  padding-right: 15px;
 }
 
 .hero_text {
@@ -48,4 +65,15 @@ a {
   top: 50%;
   left: 50%;
   transform: translate(-50% , -50%);
+  text-align: center;
+  color: white;
+}
+
+.hero_text p {
+  font-size: 20px;
+  padding: 30px;
+}
+
+.hero_text img {
+  height: 70px;
 }
